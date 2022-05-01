@@ -22,4 +22,4 @@ function verificadorCPF(String $cpf)
     print "CPF válido";
 }
 
-verificadorCPF("477.163.230-83");
+verificadorCPF("");
