@@ -3,9 +3,6 @@
 Um CPF possui o total de 11 dígitos, sendo os dois ultimos (-xx) chamados de <strong>dígito verificador</strong>.
 <br>
 Eles são resposáveis por definir se o CPF é válido ou não.
-
-O dígito verificador em um CPF: 
-
 <br>
 
 Ao realizar o algorítmo, ele pega os nove primeiros dígitos do cpf e multiplica de 10 à 2 
