@@ -1,8 +1,13 @@
 <?php
 
+function limpaNumero($numero)
+{
+    return preg_replace('/[^0-9]/is', '', $numero);
+}
+
 function verificadorCPF(String $cpf)
 {
-    $cpf = preg_replace('/[^0-9]/is', '', $cpf);
+    $cpf = limpaNumero($cpf);
 
     if (strlen($cpf) !== 11 || preg_match('/(\d)\1{10}/', $cpf)) {
         print 'CPF não é válido';
